@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Input Form with Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">Data Input</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="username">Runner Name:</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Radius">Radius(km)</label>
+                                <input type="Radius" class="form-control" id="radius" name="password" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="starttime">Start Time(h)</label>
+                                <input type="number" class="form-control" id="starttime" name="starttime" min="0" max="120" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">End Time(h)</label>
+                                <input type="number" class="form-control" id="endtime" name="starttime" min="0" max="120" required>
+                                
+                            </div>
+                            <div class="form-group">
+                                <label for="gender">Number of Laps</label>
+                                <input type="number" class="form-control" id="numoflaps" name="numoflaps" min="0" max="120" required>
+                               
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
